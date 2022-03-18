@@ -810,7 +810,7 @@
         },
         // Declaring deterministic names for platform resources that will be created
         "platformResourceNames": {
-            "logAnalyticsWorkspace": "[concat(parameters('enterpriseScaleCompanyPrefix'), '-law')]",
+            "logAnalyticsWorkspace": "[concat(parameters('enterpriseScaleCompanyPrefix'), '-law-ak')]",
             "automationAccount": "[concat(parameters('enterpriseScaleCompanyPrefix'), '-aauto')]",
             "vpnGwName": "[concat(parameters('enterpriseScaleCompanyPrefix'), '-vpngw-', parameters('location'))]",
             "erGwName": "[concat(parameters('enterpriseScaleCompanyPrefix'), '-ergw-', parameters('location'))]",
